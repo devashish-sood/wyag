@@ -1,0 +1,6 @@
+# dune init project wyag
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/devashishsood/.cache/dune/db
+# Workspace root: /Users/devashishsood/Projects/wyag/wyag
+# Auto-detected concurrency: 8

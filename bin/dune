@@ -1,4 +1,0 @@
-(executable
- (public_name git_ocaml)
- (name main)
- (libraries git_ocaml))
