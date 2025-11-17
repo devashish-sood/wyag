@@ -1,6 +1,6 @@
 (lang package 0.1)
 
-(dependency_hash 2f727ebc573afc234bec031bc04fd612)
+(dependency_hash 7529005812fab571cd48b4d5c6d29364)
 
 (ocaml ocaml-base-compiler)
 
@@ -21,4 +21,4 @@
   (os macos)
   (opam-version 2.2.0~alpha-vendored)
   (arch arm64))
- (unset_variables sys-ocaml-libc sys-ocaml-cc sys-ocaml-arch build))
+ (unset_variables with-test sys-ocaml-libc sys-ocaml-cc sys-ocaml-arch build))

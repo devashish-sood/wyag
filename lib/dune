@@ -1,2 +1,3 @@
 (library
- (name wyag))
+ (name wyag)
+ (libraries cmdliner))
