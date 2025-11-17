@@ -11,5 +11,5 @@ let init_cmd =
   let doc = "initialize a git repository" in
   Cmd.make (Cmd.info "init" ~doc)
   @@
-  let+ path in
+  let+ path = path in
   init path

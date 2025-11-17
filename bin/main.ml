@@ -1,5 +1,7 @@
+open Cmdliner
 open Wyag.Init
-open Cmdliner 
 
-let main () = Cmd.eval init_cmd
+let wyag_cmd = Cmd.group (Cmd.info "wyag") [ init_cmd ]
+
+let main () = Cmd.eval wyag_cmd
 let () = if !Sys.interactive then () else exit (main ())
