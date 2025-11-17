@@ -1,3 +1,3 @@
 (library
  (name wyag)
- (libraries cmdliner))
+ (libraries inifiles))

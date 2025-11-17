@@ -19,7 +19,7 @@
  (name wyag)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml cmdliner)
+ (depends ocaml cmdliner inifiles)
  (tags
   ("add topics" "to describe" your project)))
 
