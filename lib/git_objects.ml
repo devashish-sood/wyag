@@ -6,8 +6,5 @@ type tree_entry =
 module StringMap = Map.Make (String)
 
 type tree = tree_entry StringMap.t
-
-type git_object =
-  | Blob of string
-  | Tree of tree
-  | Commit of { tree : string; parents : string list; message : string }
+type commit = { tree : string; parents : string list; message : string }
+type git_object = Blob of string | Tree of tree | Commit of commit
